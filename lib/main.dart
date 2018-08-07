@@ -120,6 +120,7 @@ class WeMysticNewsState extends State<WeMysticNewsData> {
                 ),
                 title: new Text('Home'),
               ),
+
               new BottomNavigationBarItem(
                 icon: const Icon(Icons.home),
                 title: new Text('Astrology'),
