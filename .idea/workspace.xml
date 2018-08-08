@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="78d8d9e7-74b5-4b6e-b317-349f176853f6" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/lib/astrology/astrology_birth_chart.dart" afterPath="$PROJECT_DIR$/lib/astrology/astrology_birth_chart.dart" />
-      <change beforePath="$PROJECT_DIR$/lib/astrology/astrology_chinese_horoscope.dart" afterPath="$PROJECT_DIR$/lib/astrology/astrology_chinese_horoscope.dart" />
-      <change beforePath="$PROJECT_DIR$/lib/astrology/astrology_horoscope.dart" afterPath="$PROJECT_DIR$/lib/astrology/astrology_horoscope.dart" />
-      <change beforePath="$PROJECT_DIR$/lib/astrology/astrology_moon.dart" afterPath="$PROJECT_DIR$/lib/astrology/astrology_moon.dart" />
     </list>
     <ignored path="$PROJECT_DIR$/.dart_tool/" />
     <ignored path="$PROJECT_DIR$/.idea/" />
@@ -326,7 +322,14 @@
       <option name="project" value="LOCAL" />
       <updated>1533726612355</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Astrology_tab">
+      <created>1533727165020</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1533727165020</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView">
