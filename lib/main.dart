@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:mystic_app/astrology.dart';
+import 'package:mystic_app/astrology/astrology_header.dart';
 import 'package:mystic_app/we_mystic_news.dart';
 
 void main() => runApp(MyApp());
@@ -25,12 +25,12 @@ class _HomePageState extends State<HomePage> {
 
   int currentTab = 0;
   WeMysticNewsData home;
-  AstrologyHoroscopeToday astrology;
+  AstrologyTabs astrology;
   List<Widget> pages;
   Widget currentPage;
   @override
   void initState(){
-    astrology = AstrologyHoroscopeToday();
+    astrology = AstrologyTabs();
     home = WeMysticNewsData();
 
     pages = [home, astrology];
