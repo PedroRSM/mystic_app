@@ -8,16 +8,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/android/gradlew" afterPath="$PROJECT_DIR$/android/gradlew" />
-      <change beforePath="$PROJECT_DIR$/ios/Runner.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/ios/Runner.xcodeproj/project.pbxproj" />
-      <change beforePath="$PROJECT_DIR$/lib/astrology/astrology_header.dart" afterPath="$PROJECT_DIR$/lib/astrology/astrology_header.dart" />
-      <change beforePath="$PROJECT_DIR$/lib/bottom_nav_bar.dart" afterPath="$PROJECT_DIR$/lib/bottom_nav_bar.dart" />
-      <change beforePath="$PROJECT_DIR$/lib/main.dart" afterPath="$PROJECT_DIR$/lib/main.dart" />
-      <change beforePath="$PROJECT_DIR$/lib/new_detail.dart" afterPath="$PROJECT_DIR$/lib/new_detail.dart" />
-      <change beforePath="$PROJECT_DIR$/lib/we_mystic_news.dart" afterPath="$PROJECT_DIR$/lib/we_mystic_news.dart" />
-      <change beforePath="$PROJECT_DIR$/mystic_app.iml" afterPath="$PROJECT_DIR$/mystic_app.iml" />
-      <change beforePath="$PROJECT_DIR$/pubspec.lock" afterPath="$PROJECT_DIR$/pubspec.lock" />
-      <change beforePath="$PROJECT_DIR$/pubspec.yaml" afterPath="$PROJECT_DIR$/pubspec.yaml" />
     </list>
     <ignored path="$PROJECT_DIR$/.dart_tool/" />
     <ignored path="$PROJECT_DIR$/.idea/" />
@@ -391,7 +381,14 @@
       <option name="project" value="LOCAL" />
       <updated>1534149599055</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Astrology_tabs&#10;astrology pages created">
+      <created>1534780985240</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1534780985240</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView">
