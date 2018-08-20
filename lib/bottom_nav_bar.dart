@@ -1,9 +1,14 @@
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:mystic_app/astrology/astrology_header.dart';
 import 'package:mystic_app/we_mystic_news.dart';
 
 class HomePage extends StatefulWidget {
+  static final String route = "home-page";
+  final FirebaseUser user;
+  HomePage({this.user});
+
   @override
   _HomePageState createState() => _HomePageState();
 }
@@ -16,6 +21,7 @@ class _HomePageState extends State<HomePage> {
   AstrologyTabs astrology;
   List<Widget> pages;
   Widget currentPage;
+
   @override
   void initState(){
     astrology = AstrologyTabs();
@@ -32,6 +38,7 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
         body: currentPage,
+
         bottomNavigationBar: new BottomNavigationBar(
             currentIndex: currentTab,
             onTap: (int index){
@@ -50,7 +57,7 @@ class _HomePageState extends State<HomePage> {
 
               new BottomNavigationBarItem(
                 icon: const Icon(Icons.home),
-                title: new Text('Astrology'),
+                title: new Text("${widget.user.uid}"),
               ),
             ]));
   }

@@ -36,6 +36,7 @@ class WeMysticNewsState extends State<WeMysticNewsData> {
       appBar: AppBar(
         title: Text("We Mystic News"),
         backgroundColor: Colors.deepPurpleAccent,
+        automaticallyImplyLeading: false,
       ),
       body: ListView.builder(
         itemCount: data == null ? 0 : data.length,

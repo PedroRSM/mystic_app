@@ -16,6 +16,7 @@ class _NewDetailState extends State<NewDetail> {
     return new Scaffold(
         appBar: new AppBar(
           title: new Text("test"),
+
         ),
         body: new SingleChildScrollView(
           child: new Center(

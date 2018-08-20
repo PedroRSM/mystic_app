@@ -31,12 +31,14 @@ class _AstrologyTabsState extends State<AstrologyTabs>
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+
       body: NestedScrollView(
         controller: _scrollViewController,
         headerSliverBuilder: (BuildContext context, bool boxIsScrolled) {
           return <Widget>[
             SliverAppBar(
               title: Text('Tab Controller Example'),
+              automaticallyImplyLeading: false,
               pinned: true,
               floating: true,
               forceElevated: boxIsScrolled,
